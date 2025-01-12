@@ -54,7 +54,7 @@ const Modal = ({ data, onSave, onClose }) => {
     <div className="fixed inset-0 flex items-center justify-center bg-gray-600 bg-opacity-50">
       <div className="w-full max-w-lg rounded-lg bg-white p-6 shadow-lg">
         <h2 className="mb-4 text-xl font-bold">
-          {data ? "Edit Mahasiswa" : "Tambah Mahasiswa"}
+          {data ? "Edit Bencana" : "Tambah Bencana"}
         </h2>
         <div className="mb-4">
           <label className="block text-sm font-medium pb-2 text-gray-700">LOCATION</label>
